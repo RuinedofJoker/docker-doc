@@ -1,0 +1,7 @@
+version: "3"
+services:
+  webapp:
+    build:
+      context: ./docker-file
+    ports:
+      - 8082:8082
